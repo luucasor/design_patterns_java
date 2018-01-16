@@ -1,3 +1,5 @@
+package impostos;
+
 public interface Imposto {
 
     double valor = 0;
