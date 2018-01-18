@@ -1,4 +1,4 @@
-package impostos;
+package strategy.impostos;
 
 public class ISS implements Imposto {
 

@@ -1,4 +1,4 @@
-package investimento;
+package strategy.investimento;
 
 public class RealizadorDeInvestimentos {
 

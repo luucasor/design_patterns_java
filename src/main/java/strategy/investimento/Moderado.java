@@ -1,4 +1,4 @@
-package investimento;
+package strategy.investimento;
 
 import java.util.Random;
 
