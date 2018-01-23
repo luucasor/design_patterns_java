@@ -1,4 +1,4 @@
-package chainOfResponsability;
+package chainOfResponsability.descontos;
 
 import chainOfResponsibility.descontos.CalculadorDeDescontos;
 import chainOfResponsibility.descontos.Item;
