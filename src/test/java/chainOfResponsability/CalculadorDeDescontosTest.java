@@ -48,4 +48,14 @@ public class CalculadorDeDescontosTest {
         double desconto = calculador.calcula(orcamento);
         assertEquals(42, desconto, 0.1);
     }
+
+    @Test
+    public void deveAplicarDescontoParaVendaCasada(){
+        orcamento = new Orcamento(400.0);
+        orcamento.adicionaItem(new Item("LAPIS", 150.0));
+        orcamento.adicionaItem(new Item("CANETA", 250.0));
+
+        double desconto = calculador.calcula(orcamento);
+        assertEquals(20.0, desconto, 0.1);
+    }
 }
